@@ -20,7 +20,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
           <Droplets className="h-7 w-7 text-primary" />
-          <span className="font-heading text-xl font-bold text-gradient-ocean">DataFlow</span>
+          <span className="font-heading text-xl font-bold text-gradient-ocean">JalSuraksha</span>
         </Link>
         <div className="hidden md:flex items-center gap-6">
           <Link to="/" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Home</Link>
