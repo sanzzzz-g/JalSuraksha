@@ -19,7 +19,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 glass px-6 py-3">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
-          <Droplets className="h-7 w-7 text-primary" />
+          
           <span className="font-heading text-xl font-bold text-gradient-ocean">JalSuraksha</span>
         </Link>
         <div className="hidden md:flex items-center gap-6">
