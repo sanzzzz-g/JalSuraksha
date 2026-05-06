@@ -1,105 +1,65 @@
-💧 JalSuraksha — Water Security & Drought Management System
+# Jal Suraksha
 
-Predict Drought. Secure Water.
-An AI-powered platform to upload datasets, visualize water data, and predict drought conditions based on regional parameters.
+Jal Suraksha is a smart water management and monitoring platform designed to promote efficient water usage, conservation, and public awareness. The application provides users with tools to track water-related data, report issues, and support sustainable water resource management through a simple and accessible digital interface.
 
-🌐 Live Demo: https://jalsuraksha-1.onrender.com
+## Features
 
-📌 About the Project
-JalSuraksha (meaning Water Protection in Hindi) is a web-based platform built to help researchers, policymakers, and communities monitor and predict water security and drought conditions. Users can upload regional water datasets, explore interactive visualizations, and receive AI-powered drought predictions — all in one place.
+* Real-time water monitoring dashboard
+* User-friendly interface for reporting water-related issues
+* Data visualization and analytics
+* Secure authentication and user management
+* Responsive design for desktop and mobile devices
+* Cloud deployment for easy accessibility
 
+## Purpose
 
-✨ Features
+The goal of Jal Suraksha is to encourage responsible water usage and improve community participation in water conservation initiatives. By leveraging technology, the platform helps users monitor resources, identify problems quickly, and contribute toward sustainable environmental practices.
 
-📤 Dataset Upload — Supports CSV, XLSX, JSON, XML, TSV, SQL, and TXT formats
-📊 Interactive Dashboard — Visualize water data with dynamic charts and graphs
-🤖 AI Drought Prediction — Get predictions based on regional parameters
-🕓 Prediction History — Track and review all past predictions
-🔗 Join Tables — Combine and explore multiple datasets
-🌗 Light / Dark Mode — Toggle between themes with persistent preference
-🔐 Authentication — Secure user sign-up and login via Supabase
+## Tech Stack
 
+* Frontend: HTML, CSS, JavaScript / React
+* Backend: Node.js / Express
+* Database: MongoDB
+* Hosting: Render
 
-🛠️ Tech Stack
-TechnologyPurposeReact 18Frontend UITypeScriptType safetyViteBuild toolTailwind CSSStylingshadcn/uiUI ComponentsSupabaseBackend, Auth & DatabaseReact Router v6Client-side routingTanStack QueryData fetching & cachingRechartsData visualizationRenderDeployment
+## Installation
 
+```bash
+# Clone the repository
+git clone https://github.com/your-username/jal-suraksha.git
 
-
-🚀 Getting Started
-Prerequisites
-
-Node.js v18+
-npm or bun
-
-
-Installation
-bash# Clone the repository
-git clone https://github.com/YOUR_USERNAME/dataflow-wise.git
-cd dataflow-wise
-
+# Navigate to the project folder
+cd jal-suraksha
 
 # Install dependencies
 npm install
 
-
-# Set up environment variables
-cp .env.example .env
-# Fill in your Supabase credentials in .env
-
-
 # Start the development server
-npm run dev
-The app will be available at http://localhost:8080
+npm start
+```
 
+## Usage
 
-🔑 Environment Variables
-Create a .env file in the root directory with the following:
-envVITE_SUPABASE_URL=your_supabase_project_url
-VITE_SUPABASE_PUBLISHABLE_KEY=your_supabase_anon_key
-VITE_SUPABASE_PROJECT_ID=your_supabase_project_id
+1. Open the application in your browser.
+2. Register or log in to your account.
+3. Access the dashboard to monitor water-related information.
+4. Submit reports or track updates in real time.
 
-Get these values from your Supabase Dashboard under Settings → API
+## Future Enhancements
 
+* AI-based water usage predictions
+* IoT sensor integration
+* Multi-language support
+* SMS and email alert system
+* Advanced analytics and reporting
 
-📁 Project Structure
-src/
-├── components/       # Reusable UI components (Navbar, ThemeToggle, etc.)
-├── pages/            # Route-level pages
-│   ├── Index.tsx         # Landing page
-│   ├── Dashboard.tsx     # Data visualization dashboard
-│   ├── Predict.tsx       # Drought prediction page
-│   ├── PredictionHistory.tsx  # History of predictions
-│   ├── JoinTables.tsx    # Dataset join explorer
-│   └── Auth.tsx          # Login / Sign up
-├── hooks/            # Custom React hooks (useAuth, useTheme)
-├── integrations/     # Supabase client setup
-└── lib/              # Utility functions
+## Contributing
 
+Contributions are welcome. Feel free to fork the repository, create a feature branch, and submit a pull request.
 
-📦 Available Scripts
-bashnpm run dev        # Start development server
-npm run build      # Build for production
-npm run preview    # Preview production build locally
-npm run lint       # Run ESLint
-npm run test       # Run tests
+## License
 
+This project is licensed under the MIT License.
 
-
-☁️ Deployment
-This project is deployed on Render as a Static Site.
-
-
-Build Command: npm install && npm run build
-Publish Directory: dist
-Live URL: https://jalsuraksha-1.onrender.com
-
-
-Make sure to add your environment variables in the Render dashboard under Environment settings.
-
-
-🙋‍♀️ Author
-Sanchi Goyal
-Built with ❤️ using Lovable
-
-📄 License
-This project is private and not open for redistribution without permission.
+## Live Demo
+https://jalsuraksha-1.onrender.com
