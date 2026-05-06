@@ -8,6 +8,7 @@ An AI-powered platform to upload datasets, visualize water data, and predict dro
 📌 About the Project
 JalSuraksha (meaning Water Protection in Hindi) is a web-based platform built to help researchers, policymakers, and communities monitor and predict water security and drought conditions. Users can upload regional water datasets, explore interactive visualizations, and receive AI-powered drought predictions — all in one place.
 
+
 ✨ Features
 
 📤 Dataset Upload — Supports CSV, XLSX, JSON, XML, TSV, SQL, and TXT formats
@@ -22,27 +23,34 @@ JalSuraksha (meaning Water Protection in Hindi) is a web-based platform built to
 🛠️ Tech Stack
 TechnologyPurposeReact 18Frontend UITypeScriptType safetyViteBuild toolTailwind CSSStylingshadcn/uiUI ComponentsSupabaseBackend, Auth & DatabaseReact Router v6Client-side routingTanStack QueryData fetching & cachingRechartsData visualizationRenderDeployment
 
+
+
 🚀 Getting Started
 Prerequisites
 
 Node.js v18+
 npm or bun
 
+
 Installation
 bash# Clone the repository
 git clone https://github.com/YOUR_USERNAME/dataflow-wise.git
 cd dataflow-wise
 
+
 # Install dependencies
 npm install
+
 
 # Set up environment variables
 cp .env.example .env
 # Fill in your Supabase credentials in .env
 
+
 # Start the development server
 npm run dev
 The app will be available at http://localhost:8080
+
 
 🔑 Environment Variables
 Create a .env file in the root directory with the following:
@@ -67,6 +75,7 @@ src/
 ├── integrations/     # Supabase client setup
 └── lib/              # Utility functions
 
+
 📦 Available Scripts
 bashnpm run dev        # Start development server
 npm run build      # Build for production
@@ -74,8 +83,11 @@ npm run preview    # Preview production build locally
 npm run lint       # Run ESLint
 npm run test       # Run tests
 
+
+
 ☁️ Deployment
 This project is deployed on Render as a Static Site.
+
 
 Build Command: npm install && npm run build
 Publish Directory: dist
